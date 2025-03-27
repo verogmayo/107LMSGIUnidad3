@@ -26,6 +26,8 @@ titulo.style.textTransform="uppercase"
 /*  Parrafos: Tamaño fuente 18px,  padding 10px, 
 ancho 60%, border izquierdo 5px solido, border radio
  5px y altura línea 1.6*/ 
+
+// for(var i=0;i<parrafo.length:i++)
 parrafo[0].style.fontSize="18px"
 parrafo[1].style.fontSize="18px"
 parrafo[2].style.fontSize="18px"
