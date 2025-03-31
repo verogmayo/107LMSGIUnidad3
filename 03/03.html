@@ -14,7 +14,12 @@
         <a href="/">Enlace</a>
     </div>
     <script>
-         var numNodosHijoBody = document.body.childNodes.length;
+        const body=document.querySelector('body')
+         var numNodosHijoBody = document.body.childNodes.length;   
+          /* si se pone .children, solo te pone los hijos, 
+          con childnodes te pone todos los nodos
+          const app=document.querySelector('body').children.length
+          const app=document.querySelector('body').childElementCount; eso da 2*/
         console.log("Numero de nodos hijo del body:",numNodosHijoBody);
         var nodosHijoBody = document.body.childNodes;
         console.log("Lista de los nodos hijos del body : ", nodosHijoBody);
@@ -22,6 +27,7 @@
         console.log("Nodo padre del body:",nodoPadreBody );
         var nodosHijoApp = document.getElementById("app").childNodes;
         console.log("Nodos hijos de id=app",nodosHijoApp)
+
     </script>
 </body>
 </html>

@@ -1,6 +1,6 @@
-var titulo = document.getElementById("titulo")
-var parrafo = document.getElementsByClassName("parrafo")
-var cuerpo = document.getElementById("cuerpo")
+var titulo=document.getElementById("titulo");
+var parrafo = document.getElementsByClassName("parrafo");
+var cuerpo = document.getElementById("cuerpo");
 
 
 
