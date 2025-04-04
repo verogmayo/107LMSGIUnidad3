@@ -40,4 +40,6 @@ document.getElementById("eliminar").addEventListener("click", function(){
 document.getElementById("eliminarTodos").addEventListener("click", function(){
     //eliminar todos los párrafos
     contenedor.remove();
+    //contenedor.innerHTML("");
 });
+
