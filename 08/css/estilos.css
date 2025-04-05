@@ -1,0 +1,36 @@
+/* Estilos generales */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+    gap: 10px;
+}
+label{
+    font-weight: bold;
+    
+}
+input[type=number]{
+border:solid rgb(70,158,211);
+background-color:rgb(70,158,211) ;
+width: 80px;
+height: 30px;
+color: white;
+border-radius: 5px;
+margin: 10px;
+padding-left: 15px;
+font-weight: bold;
+outline: none;/*así no aparece el borde negro 
+al hacer clic para cambiar el numero*/ 
+}
+input[type =button]{
+    border: solid  rgb(140,203,245) ;
+    background-color: rgb(140,203,245);
+    height: 37px;
+    width: 150px;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 10px;
+}
